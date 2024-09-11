@@ -1,0 +1,55 @@
+/* ########### Welcome Page Styles ########### */
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(we.jpeg); /* Use the same background image as before */
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+
+.welcome-content {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.welcome-content h1 {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.welcome-content h1 span{
+    color: yellow;
+}
+
+.welcome-content  .p{
+    font-size: 0.8em;
+}
+
+.welcome-content p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.explore-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #ff6600; /* A bright color to stand out */
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.explore-button:hover {
+    background-color: #ff8533; /* A slightly lighter color for hover effect */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}

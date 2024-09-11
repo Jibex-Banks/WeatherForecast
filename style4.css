@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    font-family: "Rubik", sans-serif;
+}
+/* ######### Body ######### */
+body{
+    background-image: url(we.jpeg);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+/* ####### NavBar######## */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+    
+  .logo {
+    flex: 0 0 auto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em;
+  }
+  
+  .logo a{
+    text-decoration: none;
+    color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo  a:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+    
+  .nav-right {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+    
+  .nav-right li {
+    margin-left: 1rem;
+  }
+    
+  .nav-right a {
+    text-decoration: none;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);  
+  }
+     
+  .nav-right  a:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+
+/* ######### Content ######## */
+
+.header {
+    padding: 10px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: yellow;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.header p {
+    font-size: 0.8em;
+    margin-top: 0;
+    color: white;
+}
+
+main {
+    padding: 20px;
+    color: white;
+}
+
+section {
+    background-color: transparent;
+    padding: 15px;
+    margin: auto;
+    height: 630px;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* ########Form########## */
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background-color: transparent;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  color: white;
+  border:none;
+  outline: none;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+/* ########Footer######### */
+
+
+footer {
+  background-color: transparent; 
+ text-align: center;
+}
+
+.footerContainer{
+  width: 100%;
+  padding: 50px 30px 20px ;
+}
+
+.social-media{
+display: flex;
+justify-content: center;
+}
+
+.social-media a{
+text-decoration: none;
+padding:  10px;
+margin: 10px;
+border-radius: 50%;
+}
+
+.social-media a i{
+font-size: 2em;
+color: black;
+opacity: 0,9;
+}
+.footerNav{
+margin: 30px 0;
+}
+.footerNav ul{
+display: flex;
+justify-content: center;
+list-style-type: none;
+}
+.footerNav ul li a{
+color: darkslategray;
+margin: 20px;
+text-decoration: none;
+font-size: 1.3em;
+opacity: 0.7;
+transition: 0.5s;
+}
+.footerNav ul li a:hover{
+opacity: 1;
+}
+.footerBottom{
+padding: 5px;
+text-align: center;
+}

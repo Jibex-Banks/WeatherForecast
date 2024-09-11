@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    font-family: "Rubik", sans-serif;
+}
+
+/* ######### Back~Ground ######### */
+body{
+    background-image: url(we.jpeg);
+    background-repeat: no-repeat;
+}
+
+.content {
+    display: block; 
+  }
+  
+  .hidden {
+    display: none; 
+  }
+  
+/* ####### NavBar######## */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    flex: 0 0 auto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em;
+}
+  
+.logo a{
+    text-decoration: none;
+    color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+}
+  
+.logo  a:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+    
+.nav-right {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+    
+.nav-right li {
+    margin-left: 1rem;
+}
+    
+.nav-right a {
+    text-decoration: none;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);  
+}
+     
+.nav-right  a:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* ###########Search-Bar########### */
+input[type="text"]
+{
+    width: 60%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 20px 20%;
+    border-radius: 20px;
+    background-color: transparent;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+input[type="text"]:focus {
+  color: white;
+  border:none;
+  outline: none;
+}
+
+
+/* ########Content##### */
+
+.deg .location-box{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+.location-box .place,
+.location-box .date{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.deg .weather-box{
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    width: fit-content;
+    padding: 8px;
+    height: 180px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin: auto;
+}
+
+.deg .weather-box .emoji{
+    font-size: 30px;
+}
+
+.deg .weather-box .temp{
+    font-size: 2em;
+    font-style: italic;
+}
+
+.temp h3{
+    font-size:50px;
+}
+
+
+.deg .weather-box .weather{
+    color: yellow;
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+}
+
+/* 5-Days Weather Forecast  */
+table{
+    padding-top: 10px;
+    margin: auto;
+}
+table .weather-box{
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    width: fit-content;
+    height: 170px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+table .weather{
+    color: yellow;
+    text-align: center;
+    font-style: italic;
+}
+
+.emoji{
+    font-size: 25px;
+}
+/* ###########Footer############ */
+footer {
+    background-color: transparent; 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  footer a {
+    color: #000; 
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  

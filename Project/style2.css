@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    font-family: "Rubik", sans-serif;
+}
+/* ######### Back~Ground ######### */
+body{
+    background-image: url(we.jpeg);
+    background-repeat: no-repeat;
+}
+
+/* ####### NavBar######## */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+    
+  .logo {
+    flex: 0 0 auto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em;
+  }
+  
+  .logo a{
+    text-decoration: none;
+    color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo  a:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+    
+  .nav-right {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+    
+  .nav-right li {
+    margin-left: 1rem;
+  }
+    
+  .nav-right a {
+    text-decoration: none;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);  
+  }
+     
+  .nav-right  a:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+
+/* ############Content########### */
+.content {
+    background-color: transparent;
+    padding: 15px;
+    margin: auto;
+    height: 530px;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.content h1{
+    color: white;
+    margin: 0 0 20px 0 ;
+}
+
+
+.header {
+    padding: 10px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: yellow;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.header p {
+    font-size: 0.8em;
+    margin-top: 0;
+    color: white;
+}
+
+
+
+.text p{
+    color: white;
+    margin: 0;
+    font-size: large;
+} 
+
+.content form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+}
+  
+form .fm{
+    display: flex;
+    margin: 10px;
+    height: 42px;
+    width: 70%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);   
+    border-radius: 20px; 
+}
+
+.fm .img{
+    align-items: center;
+    padding-left: 10px;
+}
+
+form .fm input{
+    width: 250px;
+    height: 39px;
+    border-radius: 0 20px 20px 0;
+    background-color: transparent;
+    border: none; 
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: none;
+  outline: none;
+  color: white;
+}
+
+
+form button{
+    width:125px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: transparent;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);  
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+   font-family: "sript typefaces";
+    font-size: 1.5em;
+    transition: 0.3s ease-in;
+}
+
+form button:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);  
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+form button a {
+  text-decoration: none;
+  color:white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);  
+}
+
+footer {
+    background-color: transparent; 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  footer a {
+    color: #000; 
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
